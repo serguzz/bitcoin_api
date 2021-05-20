@@ -30,7 +30,7 @@
               let ctx = canvas.getContext('2d');
 
               ctx.fillStyle = "black"; // black lines
-              ctx.lineWidth = 2.0; // line width
+              ctx.lineWidth = 3.0; // line width
               ctx.beginPath(); // init path
               ctx.moveTo(30, 10); // initial point
               ctx.lineTo(30, 460); // move point to
@@ -49,7 +49,7 @@
               }
 
               // X scale - days of the two weeks- last week to next week, total - 14
-              let labels = ["-7", "-6", "-5", "-4", "-3", "-2", "-1", "0", "1", "2", "3", "4", "5", "6"];
+              let labels = ["last week", "Day 2", "Day 3", "Day 4", "Day 5", "Day 6", "Day 7", "next week", "Day 2", "Day 3", "Day 4", "Day 5", "Day 6", "Day 7"];
 
               // draw the X scale labels
               for(var i=0; i<14; i++) {
